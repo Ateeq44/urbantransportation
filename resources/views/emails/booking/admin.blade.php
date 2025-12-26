@@ -1,6 +1,5 @@
 @php
-  $appName = config('app.name');
-  $logoUrl = asset('assets/images/logo.png'); // <-- اپنا logo path
+  $logoUrl = asset('assets/images/logo.png');
 @endphp
 
 <!doctype html>
@@ -18,10 +17,10 @@
           
           <!-- Header -->
           <tr>
-            <td style="background:#5969ff;padding:18px 22px;text-align:center;">
-              <img src="{{ $logoUrl }}" alt="{{ $appName }}" style="height:52px;display:block;margin:0 auto 8px;">
+            <td style="background:#b51515;padding:18px 22px;text-align:center;">
+              <img src="{{ $logoUrl }}" alt="Urban Transportation" style="height:52px;display:block;margin:0 auto 8px;">
               <div style="color:#ffffff;font-size:15px;font-weight:600;letter-spacing:.2px;">
-                {{ $appName }}
+                Urban Transportation
               </div>
             </td>
           </tr>
@@ -85,7 +84,7 @@
           <!-- Footer -->
           <tr>
             <td style="padding:14px 22px 22px;text-align:center;color:#9ca3af;font-size:12px;">
-              This is an automated notification from <b style="color:#6b7280;">{{ $appName }}</b>.
+              This is an automated notification from <b style="color:#6b7280;">Urban Transportation</b>.
             </td>
           </tr>
 

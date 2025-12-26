@@ -1,5 +1,4 @@
 @php
-  $appName = config('app.name');
   $logoUrl = asset('assets/images/logo.png'); // <-- اپنا logo path
 @endphp
 
@@ -18,10 +17,10 @@
           
           <!-- Header -->
           <tr>
-            <td style="background:#5969ff;padding:18px 22px;text-align:center;">
-              <img src="{{ $logoUrl }}" alt="{{ $appName }}" style="height:52px;display:block;margin:0 auto 8px;">
+            <td style="background:#b51515;padding:18px 22px;text-align:center;">
+              <img src="{{ $logoUrl }}" alt="Urban Transportation" style="height:52px;display:block;margin:0 auto 8px;">
               <div style="color:#ffffff;font-size:15px;font-weight:600;letter-spacing:.2px;">
-                {{ $appName }}
+                Urban Transportation
               </div>
             </td>
           </tr>
@@ -92,7 +91,7 @@
               </p>
               <p style="margin:14px 0 0;font-size:13px;color:#374151;">
                 Thanks,<br>
-                <b>{{ $appName }}</b>
+                <b>Urban Transportation</b>
               </p>
             </td>
           </tr>
@@ -100,7 +99,7 @@
           <!-- Footer -->
           <tr>
             <td style="padding:14px 22px 22px;text-align:center;color:#9ca3af;font-size:12px;">
-              © {{ date('Y') }} {{ $appName }}. All rights reserved.
+              © {{ date('Y') }} Urban Transportation. All rights reserved.
             </td>
           </tr>
 
