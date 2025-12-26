@@ -24,6 +24,13 @@ Route::get('testimonials', function () {
     return view('testimonials');
 });
 
+Route::get('/register', function () {
+    return redirect()->route('login');
+})->name('register');
+
+Route::post('/register', function () {
+    return redirect()->route('login');
+});
 
 Route::post('/booking', [BookingController::class, 'store'])->name('booking.store');
 

@@ -51,7 +51,7 @@
         <!-- ============================================================== -->
         <div class="dashboard-header">
             <nav class="navbar navbar-expand-lg bg-white fixed-top">
-                <a class="navbar-brand" href="index.html">
+                <a class="navbar-brand" href="{{url('dashboard')}}">
                     <img src="{{asset('uploads/setting/logo.png')}}" style="width: 200px;"  alt="">
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
