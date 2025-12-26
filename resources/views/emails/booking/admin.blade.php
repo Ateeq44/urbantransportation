@@ -1,5 +1,5 @@
 @php
-  $logoUrl = asset('assets/images/logo.png');
+  $logoUrl = asset('uploads/setting/logo.png');
 @endphp
 
 <!doctype html>
@@ -18,8 +18,8 @@
           <!-- Header -->
           <tr>
             <td style="background:#b51515;padding:18px 22px;text-align:center;">
-              <img src="{{ $logoUrl }}" alt="Urban Transportation" style="height:52px;display:block;margin:0 auto 8px;">
-              <div style="color:#ffffff;font-size:15px;font-weight:600;letter-spacing:.2px;">
+              <!-- <img src="{{ $logoUrl }}" alt="Urban Transportation" style="width: 200px; display:block;margin:0 auto 8px;"> -->
+              <div style="color:#ffffff;font-size:28px;font-weight:600;letter-spacing:.2px;">
                 Urban Transportation
               </div>
             </td>
