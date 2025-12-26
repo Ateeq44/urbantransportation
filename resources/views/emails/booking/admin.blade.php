@@ -64,7 +64,7 @@
                   <tr>
                     <td style="padding:7px 0;color:#6b7280;">Appointment Date</td>
                     <td style="padding:7px 0;font-weight:600;">
-                      {{ date('d-m-Y', strtotime($book->appointment_date)); }}
+                      {{ date('d-m-Y', strtotime($booking->appointment_date)); }}
                     </td>
                   </tr>
                   <tr>
