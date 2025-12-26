@@ -165,7 +165,7 @@
                     <a href="{{ url('service') }}"> 
                         <div class="service-card">
                             <div class="service-icon">
-                                <img src="assets/front_end/image/home-service-1.svg" class="img-fluid" alt="">
+                                <img src="assets/front_end/image/dashboard-service-1.svg" class="img-fluid" alt="">
                             </div>
                             <div class="service-content">
                                 <h6>Recurring Appointments</h6>
@@ -181,7 +181,7 @@
                     <a href="{{ url('service') }}"> 
                     <div class="service-card">
                         <div class="service-icon">
-                            <img src="assets/front_end/image/home-service-2.svg" class="img-fluid"
+                            <img src="assets/front_end/image/dashboard-service-2.svg" class="img-fluid"
                                 alt="">
                         </div>
                         <div class="service-content">
@@ -198,7 +198,7 @@
                     <a href="{{ url('service') }}"> 
                         <div class="service-card">
                             <div class="service-icon">
-                                <img src="assets/front_end/image/home-service-3.svg" class="img-fluid"
+                                <img src="assets/front_end/image/dashboard-service-3.svg" class="img-fluid"
                                     alt="">
                             </div>
                             <div class="service-content">
@@ -215,7 +215,7 @@
                     <a href="{{ url('service') }}">
                         <div class="service-card">
                             <div class="service-icon">
-                                <img src="assets/front_end/image/home-service-4.svg" class="img-fluid"
+                                <img src="assets/front_end/image/dashboard-service-4.svg" class="img-fluid"
                                     alt="">
                             </div>
                             <div class="service-content">
@@ -238,7 +238,7 @@
                     <a href="{{ url('service') }}">
                         <div class="service-card">
                             <div class="service-icon">
-                                <img src="assets/front_end/image/home-service-6.svg" class="img-fluid"
+                                <img src="assets/front_end/image/dashboard-service-6.svg" class="img-fluid"
                                     alt="">
                             </div>
                             <div class="service-content">
