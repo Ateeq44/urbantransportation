@@ -3,7 +3,7 @@
 
 <head>
     <!-- Required meta tags -->
-    <meta name="image" content="{{ asset('uploads/setting/1758738078.favicon.png')}}">
+    <meta name="image" content="{{ asset('uploads/setting/favicon.png')}}">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Bootstrap CSS -->

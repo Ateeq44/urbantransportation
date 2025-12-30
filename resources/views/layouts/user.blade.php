@@ -16,7 +16,7 @@
         content="Safe, ADA-compliant wheelchair, stretcher, and ambulatory rides in Houston. On-time, CPR-certified drivers. 24/7 booking and door-to-door help.">
     <meta name="keywords"
         content="non emergency medical transportation houston, reliable medical transportation, comfortable patient transports, non emergency medical transportation, NEMT services">
-    <meta name="image" content="uploads/setting/1758738078.favicon.png">
+    <meta name="image" content="{{ asset('uploads/setting/favicon.png')}}">
     <meta name="author" content="Royalty Medical Transportation" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <!-- meta end -->
@@ -41,7 +41,7 @@
     <!-- End Google Tag Manager -->
 
     <!--fav icon -->
-    <link rel="icon" href="uploads/setting/1758738078.favicon.png" sizes="32x32"
+    <link rel="icon" href="{{ asset('uploads/setting/favicon.png')}}" sizes="32x32"
         type="image/png">
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
