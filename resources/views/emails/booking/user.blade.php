@@ -78,6 +78,10 @@
                     <td style="padding:7px 0;color:#6b7280;">Trip Type</td>
                     <td style="padding:7px 0;font-weight:600;">{{ $booking->trip_type }}</td>
                   </tr>
+                  <tr>
+                    <td style="padding:7px 0;color:#6b7280;">Mobility Need</td>
+                    <td style="padding:7px 0;font-weight:600;">{{ $booking->mobility }}</td>
+                  </tr>
                 </table>
               </div>
             </td>

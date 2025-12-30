@@ -31,6 +31,7 @@ class BookingController extends Controller
             'ampm'   => ['required', 'in:AM,PM'],
 
             'trip_type' => ['required', 'in:one-way,round'],
+            'mobility' => ['required', 'in:Ambulatory,Stretcher,Wheelchair'],
         ]);
 
         // 2) Build time (HH:MM:SS 24-hour)
@@ -61,6 +62,7 @@ class BookingController extends Controller
             'appointment_time' => $appointmentTime,
 
             'trip_type' => $validated['trip_type'],
+            'mobility' => $validated['mobility'],
             'status'    => 'new',
         ]);
 

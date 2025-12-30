@@ -9,8 +9,7 @@
                     <div class="contact-banner-content">
                         <h6 data-aos="zoom-in">Contact Us</h6>
                         <h1 data-aos="zoom-in">Let’s Connect</h1>
-                        <p data-aos="zoom-in">From doctor visits to family gatherings, our rides are designed to meet every
-                            <br> need with safety and comfort.</p>
+                        <p data-aos="zoom-in">Contact Urban Transportation Services</p>
                     </div>
                 </div>
             </div><!--row-->
@@ -31,7 +30,7 @@
                     </a>
                 </div>
                 <!-- card 1 -->
-                <div class="col-lg-3">
+                <!-- <div class="col-lg-3">
                     <a href="https://maps.app.goo.gl/mhfSkwrjY2RjGsKF8" target="_blank">
                         <div class="address-card" data-aos="fade-up">
                             <div class="address-card-icon">
@@ -45,7 +44,7 @@
                             </div>
                         </div>
                     </a>
-                </div>
+                </div> -->
                 <!-- card 2 -->
 
                 <div class="col-lg-3">
@@ -103,7 +102,7 @@
                 <div class="col-lg-6" data-aos="fade-right">
                     <div class="contact-form-title">
                         <h1>Get <span>in Touch</span> </h1>
-                        <p>Send us a message and we’ll respond as soon as possible</p>
+                        <p>We’re available 24/7 to assist with scheduling, questions, and medical transportation in Minneapolis, MN.</p>
                     </div>
 
                     <div class="contact-form">

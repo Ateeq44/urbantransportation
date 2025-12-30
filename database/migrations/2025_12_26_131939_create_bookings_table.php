@@ -30,6 +30,7 @@ return new class extends Migration
             $table->time('appointment_time');
 
             $table->enum('trip_type', ['one-way', 'round'])->default('one-way');
+            $table->enum('mobility', ['Ambulatory', 'Wheelchair', 'Stretcher'])->default('one-way');
 
             $table->string('status')->default('new'); // optional
 

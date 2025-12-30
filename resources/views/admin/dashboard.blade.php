@@ -110,6 +110,7 @@
                                             <th class="border-0">Appointment Date</th>
                                             <th class="border-0">Appointment Time</th>
                                             <th class="border-0">Trip Type</th>
+                                            <th class="border-0">Mobility</th>
                                             <th class="border-0">Created At</th>
                                         </tr>
                                     </thead>
@@ -125,6 +126,7 @@
                                             <td>{{ date('d-m-Y', strtotime($book->appointment_date)); }}</td>
                                             <td>{{ date('H:i', strtotime($book->appointment_time)) }}</td>
                                             <td>{{ $book->trip_type }}</td>
+                                            <td>{{ $book->mobility }}</td>
                                             <td>{{ date('d-m-Y', strtotime($book->created_at)); }}</td>
                                         </tr>
                                         @endforeach

@@ -18,6 +18,7 @@ class Booking extends Model
         'appointment_date',
         'appointment_time',
         'trip_type',
+        'mobility',
         'status',
     ];
 
