@@ -65,30 +65,30 @@
                                     <td>{{ $book->dropoff_address }}</td>
                                     <td>{{ date('d-m-Y', strtotime($book->appointment_date)); }}</td>
                                     <td>{{ date('H:i', strtotime($book->appointment_time)) }}</td>
-                                    <td>{{ $book->trip_type }}</td>
+                                    <td><?= $book->trip_type == 'one-way' ? 'One-Way Trip' : 'Round Trip'; ?></td>
                                     <td>{{ $book->mobility }}</td>
-                                    <td>{{ date('d-m-Y', strtotime($book->created_at)); }}</td>
-                                </tr>
-                                @endforeach
-                            </tbody>
-                        </table>
-                    </div>
-                </div>
-                <div class="card-footer bg-white">
-                    <div class="d-flex justify-content-center">
-                        {{ $bookings->links('pagination::bootstrap-4') }}
-                    </div>
-
+                                <td>{{ date('d-m-Y', strtotime($book->created_at)); }}</td>
+                            </tr>
+                            @endforeach
+                        </tbody>
+                    </table>
                 </div>
             </div>
+            <div class="card-footer bg-white">
+                <div class="d-flex justify-content-center">
+                    {{ $bookings->links('pagination::bootstrap-4') }}
+                </div>
+
+            </div>
         </div>
-        <!-- ============================================================== -->
-        <!-- end basic table  -->
-        <!-- ============================================================== -->
     </div>
     <!-- ============================================================== -->
-    <!-- end data table  -->
+    <!-- end basic table  -->
     <!-- ============================================================== -->
+</div>
+<!-- ============================================================== -->
+<!-- end data table  -->
+<!-- ============================================================== -->
 </div>
 </div>
 
