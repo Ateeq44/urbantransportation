@@ -257,7 +257,7 @@
 
 
                 <!-- shape -->
-                <div class="vision-shape-top">
+                <div class="vision-shape-top" style="display: flex;justify-content: end;">
                     <img src="assets/front_end/image/shape-top.svg" class="img-fluid" alt="">
                 </div>
 
